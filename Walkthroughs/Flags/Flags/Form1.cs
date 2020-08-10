@@ -10,11 +10,31 @@ using System.Windows.Forms;
 
 namespace Flags
 {
-    public partial class Form1 : Form
+    public partial class catsForm : Form
     {
-        public Form1()
+        public catsForm()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void batmanPictureBox_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Its Batman!");
+        }
+
+        private void catPictureBox_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Picture of cat sitting");
+        }
+
+        private void memePictureBox_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Funny Meme");
         }
     }
 }
