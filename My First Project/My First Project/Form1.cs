@@ -26,5 +26,10 @@ namespace My_First_Project
         {
             MessageBox.Show("Hello World!");
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            label2.Text
+        }
     }
 }
