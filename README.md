@@ -14,7 +14,11 @@ throught the book:</b></u>
 	properties that affect the control’s appearance. Label controls can be used
 	to display unchanging text, or program output.</li>
 </ul>
-</br>
+
 </br>
 <b>The following are commands learned as i progress throught the book.</b>
-<i>MessageBox.Show("String goes here")</i>: Displays a pop up message after a control is triggered.
+</br>
+<ul>
+	<li><i>MessageBox.Show("String goes here")</i>: Displays a pop up message after a 
+	control is triggered.</li>
+</ul>
