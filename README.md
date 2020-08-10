@@ -1,8 +1,8 @@
 # Starting-out-with-Viusal-C#
 Book Guide 
 
-<b><u>The following are notes that I will be taking as I progress to 
-throught the book:</u></b>
+<u><b>The following are notes that I will be taking as I progress to 
+throught the book:</b></u>
 
 <i>Event handlers</i> respond to specific events that take place while an
 application is running.
