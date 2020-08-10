@@ -19,6 +19,7 @@ throught the book:</b></u>
 <b>The following are commands learned as i progress throught the book.</b>
 </br>
 <ul>
-	<li><i>MessageBox.Show("String goes here")</i>: Displays a pop up message after a 
+	<li><b><i>MessageBox.Show("String goes here")</i></b>: Displays a pop up message after a 
 	control is triggered.</li>
+	<li>To close an application’s form in code, you use the statement <b><i>this.Close();</i></b></li>
 </ul>
