@@ -30,7 +30,7 @@ throught the book:</b></u>
 		The <b><i>TextBox control</i></b> is a rectangular area that can accept keyboard input
 		from the user.
 	</li>
-	<li>
+	<li>	Formating Strings
 		<ul>
 			<li>
 				When you pass the formatting string <b><i>"c"</i></b> to the <b><i>ToString</i></b> method, the number is
