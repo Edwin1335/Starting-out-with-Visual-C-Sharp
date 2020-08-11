@@ -50,5 +50,6 @@ throught the book:</b></u>
 			</li>
 		</ul>
 	 </li>
-	
+	 <l1><b><i>A field</i></b> is a variable that is declared at the class level. A field’s scope is the entire class.</li>
+	 
 </ul>
