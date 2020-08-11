@@ -56,7 +56,9 @@ throught the book:</b></u>
 			</li>
 		</ul>
 	 </li>
-	 <l1><b><i>A field</i></b> is a variable that is declared at the class level. A field’s scope is the entire class.</li>
+	 <l1>
+		<b><i>A field</i></b> is a variable that is declared at the class level. A field’s scope is the entire class.
+		</li>
 	 <l1>
 		Users want to tab smoothly from one control to the next, in a logical sequence. You can
 		modify the tab order by changing a control’s <b><i>TabIndex property</i></b>. The TabIndex property
