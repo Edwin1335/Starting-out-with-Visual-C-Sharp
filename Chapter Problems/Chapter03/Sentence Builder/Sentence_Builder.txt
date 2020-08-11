@@ -1,0 +1,5 @@
+The form in Figure 3-47 contains buttons showing various words, phrases, and
+punctuation. Create an application with a form similar to this one. When the application runs, 
+the user clicks the buttons to build a sentence, which is shown in a Label control. You can use 
+the same buttons as shown in the figure or make up your own. The Reset button should clear the 
+sentence so the user can start over.
