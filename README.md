@@ -64,4 +64,8 @@ throught the book:</b></u>
 		modify the tab order by changing a control’s <b><i>TabIndex property</i></b>. The TabIndex property
 		contains a numeric value, which indicates the control’s position in the tab order.
 	</li>
+	<li>
+		Exceptions should be prevented when possible. You can use the <b><i>TryParse</i></b> methods to prevent exceptions as a 
+		result of the user entering invalid data.
+	</li>
 </ul>
