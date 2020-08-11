@@ -19,11 +19,17 @@ throught the book:</b></u>
 <b>The following are commands learned as i progress throught the book.</b>
 </br>
 <ul>
-	<li><b><i>MessageBox.Show("String goes here")</i></b>: Displays a pop up message after a 
-	control is triggered.</li>
-	<li>To close an application’s form in code, you use the statement <b><i>this.Close();</i></b></li>
-	<li>The <b><i>TextBox control</i></b> is a rectangular area that can accept keyboard input
-	from the user.</li>
+	<li>
+		<b><i>MessageBox.Show("String goes here")</i></b>: Displays a pop up message after a 
+		control is triggered.
+	</li>
+	<li>
+		To close an application’s form in code, you use the statement <b><i>this.Close();</i></b>
+	</li>
+	<li>
+		The <b><i>TextBox control</i></b> is a rectangular area that can accept keyboard input
+		from the user.
+	</li>
 	<li>
 		<ul>
 			<li>
@@ -51,5 +57,9 @@ throught the book:</b></u>
 		</ul>
 	 </li>
 	 <l1><b><i>A field</i></b> is a variable that is declared at the class level. A field’s scope is the entire class.</li>
-	 
+	 <l1>
+		Users want to tab smoothly from one control to the next, in a logical sequence. You can
+		modify the tab order by changing a control’s <b><i>TabIndex property</i></b>. The TabIndex property
+		contains a numeric value, which indicates the control’s position in the tab order.
+	</li>
 </ul>
