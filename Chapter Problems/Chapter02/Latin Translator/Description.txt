@@ -1,0 +1,11 @@
+Latin Translator
+
+Look at the following list of Latin words and their meanings:
+Latin		English
+sinister	left
+dexter		right
+medium		center
+
+Create an application that translates the Latin words to English. The form should
+have three buttons, one for each Latin word. When the user clicks a button, the
+application should display the English translation in a Label control.

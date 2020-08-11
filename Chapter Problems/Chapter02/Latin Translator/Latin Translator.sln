@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latin Translator", "Latin Translator\Latin Translator.csproj", "{C6725C5B-5550-40BD-8E9F-674C0E313CE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BACC351E-09D9-49D1-98EA-82B2494E7216}"
+	ProjectSection(SolutionItems) = preProject
+		Description.txt = Description.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6725C5B-5550-40BD-8E9F-674C0E313CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6725C5B-5550-40BD-8E9F-674C0E313CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6725C5B-5550-40BD-8E9F-674C0E313CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6725C5B-5550-40BD-8E9F-674C0E313CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3E1F05D-4EAB-4120-BBB0-ECD543F7E8D5}
+	EndGlobalSection
+EndGlobal
