@@ -22,4 +22,6 @@ throught the book:</b></u>
 	<li><b><i>MessageBox.Show("String goes here")</i></b>: Displays a pop up message after a 
 	control is triggered.</li>
 	<li>To close an application’s form in code, you use the statement <b><i>this.Close();</i></b></li>
+	<li>The <b><i>TextBox control</b></i> is a rectangular area that can accept keyboard input
+from the user.</li>
 </ul>
