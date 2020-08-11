@@ -42,6 +42,7 @@ namespace TestAverageExeptionHandling
 
         private void clearButton_Click(object sender, EventArgs e)
         {
+            // Clearing all values
             test1TextBox.Text = "";
             test2TextBox.Text = "";
             test3TextBox.Text = "";
@@ -50,6 +51,7 @@ namespace TestAverageExeptionHandling
 
         private void exitButton_Click(object sender, EventArgs e)
         {
+            // Close the form.
             this.Close();
         }
     }
