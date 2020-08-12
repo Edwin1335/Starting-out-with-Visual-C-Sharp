@@ -25,9 +25,11 @@ namespace FriendFile
                 if (nameTextBox.Text != "")
                 {
                     StreamWriter output;
-                    output = File.CreateText("Friend.txt");
+                    output = File.AppendText("Friend.txt");
                     output.WriteLine(nameTextBox.Text);
                     output.Close();
+                    nameTextBox.Text = "";
+                    nameTextBox.Focus();
                 }
                 else
                 {
