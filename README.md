@@ -1,4 +1,4 @@
-﻿# Starting-out-with-Viusal-C#
+﻿# Starting-out-with-Visual-C#
 Book Guide 
 
 <u><b>The following are notes that I will be taking as I progress to 
