@@ -68,4 +68,8 @@ throught the book:</b></u>
 		Exceptions should be prevented when possible. You can use the <b><i>TryParse</i></b> methods to prevent exceptions as a 
 		result of the user entering invalid data.
 	</li>
+	<li>
+		The <b><i>OpenFileDialog</i></b> and <b><i>SaveFileDialog</i></b> controls allow your application to display standard Windows dialog 
+		boxes for opening and saving files. These allow the user to easily specify a file’s name and location.
+	</li>
 </ul>
