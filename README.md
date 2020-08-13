@@ -15,6 +15,9 @@ throught the book:</b></u>
 	<li>A <b>Label control</b> displays text on a form. Label controls have various
 	properties that affect the control’s appearance. Label controls can be used
 	to display unchanging text, or program output.</li>
+    <li>
+        A jagged array is similar to a two-dimensional array, but the rows in a jagged array can have different lengths.
+    </li>
 </ul>
 
 </br>
@@ -99,8 +102,5 @@ throught the book:</b></u>
                 </ul>
             </li>
         </ul>
-    </li>
-    <li>
-        ![Double Arrays Image](/Images/DoubleArrays.PNG)
     </li>
 </ul>
