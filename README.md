@@ -21,6 +21,12 @@ throught the book:</b></u>
     <li>
         C# allows you to access the individual characters in a string using <b><i>subscript</i></b> notation. You use subscript 0 to access the first character, subscript 1 to access the second character, and so forth. The subscript of the last character is 1 less than the string’s length. 
     </li>
+    <li>
+        An enumerated data type is a data type that you can create. When you create an enumerated data type, you specify a set of symbolic values that belong to that data type. 
+        Here is an example of an enumerated data type declaration:
+        </br>
+        <b><i>enum</i></b> Day { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
+    </li>
 </ul>
 
 </br>
