@@ -101,6 +101,6 @@ throught the book:</b></u>
         </ul>
     </li>
     <li>
-    <img src="./Images/DoubleArray" alt="Double Array Image">
+    <img src="\Images\DoubleArrays.PNG" alt="Double Array Image">
     </li>
 </ul>
