@@ -18,6 +18,9 @@ throught the book:</b></u>
     <li>
         A jagged array is similar to a two-dimensional array, but the rows in a jagged array can have different lengths.
     </li>
+    <li>
+        C# allows you to access the individual characters in a string using <b><i>subscript</i></b> notation. You use subscript 0 to access the first character, subscript 1 to access the second character, and so forth. The subscript of the last character is 1 less than the string’s length. 
+    </li>
 </ul>
 
 </br>
