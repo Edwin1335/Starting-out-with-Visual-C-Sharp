@@ -72,4 +72,30 @@ throught the book:</b></u>
 		The <b><i>OpenFileDialog</i></b> and <b><i>SaveFileDialog</i></b> controls allow your application to display standard Windows dialog 
 		boxes for opening and saving files. These allow the user to easily specify a file’s name and location.
 	</li>
+    <li> The foreach Loop versus the for Loop.
+        <ul>
+            <li>
+                When you need to read the values that are stored in an array from the first element to the
+                last element, the foreach loop is simpler to use than the for loop. With the foreach
+                loop, you do not have to be concerned about the size of the array, and you do not have to
+                create a counter variable to hold subscripts; however, because the iteration variable is
+                read only, there are circumstances in which the foreach loop is not adequate. You cannot
+                use the foreach loop if you need to do any of the following:
+                <ul>
+                    <li>
+                        Change the contents of an array element.
+                    </li>
+                    <li>
+                        Access some, but not all, of the array elements
+                    </li>
+                    <li>
+                        Work through the array elements in reverse order.
+                    </li>
+                    <li>
+                        Simultaneously work with two or more arrays within the loop.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
 </ul>
