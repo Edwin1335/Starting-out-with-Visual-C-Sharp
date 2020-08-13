@@ -16,7 +16,7 @@ throught the book:</b></u>
 </ul>
 
 </br>
-<b>The following are commands learned as i progress throught the book.</b>
+<b>The following are commands learned as I progress throught the book.</b>
 </br>
 <ul>
 	<li>
@@ -72,7 +72,7 @@ throught the book:</b></u>
 		The <b><i>OpenFileDialog</i></b> and <b><i>SaveFileDialog</i></b> controls allow your application to display standard Windows dialog 
 		boxes for opening and saving files. These allow the user to easily specify a file’s name and location.
 	</li>
-    <li> The foreach Loop versus the for Loop.
+    <li> The <b><i>foreach Loop</i></b> versus the <b><i>for Loop</i></b>.
         <ul>
             <li>
                 When you need to read the values that are stored in an array from the first element to the
