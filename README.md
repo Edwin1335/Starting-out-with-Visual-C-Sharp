@@ -27,6 +27,25 @@ throught the book:</b></u>
         </br>
         <b><i>enum</i></b> Day { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
     </li>
+    <li>
+        The <b><i>ImageList</i></b> control allows you to store a collection of images. At run
+        time, you can retrieve an image from an ImageList control and display it in
+        a PictureBox control.
+        <li> Image List Guidelines
+		<ul>
+			<li>
+                All the images stored in an ImageList control should be the same size.
+			</li>
+            <li>
+                The images stored in an ImageList control can be no more than 256 by 256 pixels
+                in size.			
+            </li>
+            <li>
+                All the images stored in an ImageList control should be in the same format 
+                (.bmp, .jpg, etc.)			
+            </li>
+		</ul>
+    </li>
 </ul>
 
 </br>
