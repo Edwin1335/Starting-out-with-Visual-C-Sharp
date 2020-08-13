@@ -1,9 +1,11 @@
-﻿# Starting-out-with-Visual-C#
-Book Guide 
+﻿# Starting-out-with-Visual-C
 
-<u><b>The following are notes that I will be taking as I progress to 
+Book Guide
+
+<u><b>The following are notes that I will be taking as I progress to
 throught the book:</b></u>
 </br>
+
 <ul>
 	<li><b>Event handlers</b> respond to specific events that take place while an 
 	application is running.</li>
@@ -97,5 +99,8 @@ throught the book:</b></u>
                 </ul>
             </li>
         </ul>
+    </li>
+    <li>
+    <img src="./Images/DoubleArray" alt="Double Array Image">
     </li>
 </ul>
