@@ -46,12 +46,6 @@ throught the book:</b></u>
             </li>
 		</ul>
     </li>
-</ul>
-
-</br>
-<b>The following are commands learned as I progress throught the book.</b>
-</br>
-<ul>
 	<li>
 		<b><i>MessageBox.Show("String goes here")</i></b>: Displays a pop up message after a 
 		control is triggered.
@@ -130,5 +124,8 @@ throught the book:</b></u>
                 </ul>
             </li>
         </ul>
+    </li>
+    <li>
+        The <b><i>accessors</i></b> allow code outside the class to get the property’s value and assign values to the property.
     </li>
 </ul>
