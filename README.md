@@ -136,20 +136,13 @@ throught the book:</b></u>
         the other hand, allows the user to switch focus to another form while it is displayed. 
         <ul>
             <li>
-                When you need to read the values that are stored in an array from the first element to the
-                last element, the foreach loop is simpler to use than the for loop. With the foreach
-                loop, you do not have to be concerned about the size of the array, and you do not have to
-                create a counter variable to hold subscripts; however, because the iteration variable is
-                read only, there are circumstances in which the foreach loop is not adequate. You cannot
-                use the foreach loop if you need to do any of the following:
-                <ul>
-                    <li>
-                         When you call the ShowDialog method to display a modal form, control of the program is transferred to the form, and no statements appearing after the ShowDialog method call will execute until the form is closed.
-                    </li>
-                    <li>
-                        When you call the Show method to display a modeless form, however, the statements that appear after the Show method call continue to execute while the form is displayed. The application does not wait until the modeless form is closed before executing these statements.
-                    </li>
-                </ul>
+                When you call the ShowDialog method to display a modal form, control of the program is transferred to the form, and no statements appearing after the ShowDialog method call will execute until the form is closed.
+            </li>
+            <li>
+                When you call the Show method to display a modeless form, however, the statements that appear after the Show method call continue to execute while the form is displayed. The application does not wait until the modeless form is closed before executing these statements.
+            </li>
+            <li>
+                Modeless forms are typically used in special situations. In most multiform applications, you will want to display forms in modal fashion.
             </li>
         </ul>
     </li>
