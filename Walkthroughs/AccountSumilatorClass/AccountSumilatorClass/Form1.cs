@@ -20,7 +20,7 @@ namespace AccountSumilatorClass
             if(input != "" && decimal.TryParse(input, out amount))
             {
                 myAccount.MakeADeposit(amount);
-                balanceLabel.Text = myAccount.GetAmount().ToString();
+                balanceLabel.Text = myAccount.GetAmount().ToString("c");
             }
             else
             {
@@ -40,7 +40,7 @@ namespace AccountSumilatorClass
             if (input != "" && decimal.TryParse(input, out amount))
             {
                 myAccount.MakeAWithdrawl(amount);
-                balanceLabel.Text = myAccount.GetAmount().ToString();
+                balanceLabel.Text = myAccount.GetAmount().ToString("c");
             }
             else
             {
@@ -57,7 +57,7 @@ namespace AccountSumilatorClass
 
         private void BankAccountForm_Load(object sender, EventArgs e)
         {
-            balanceLabel.Text = STARTING_BALANCE.ToString();
+            balanceLabel.Text = STARTING_BALANCE.ToString("C");
             myAccount = new BankAccount(STARTING_BALANCE);
         }
     }
