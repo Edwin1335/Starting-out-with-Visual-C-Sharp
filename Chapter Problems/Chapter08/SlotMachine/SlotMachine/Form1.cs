@@ -106,7 +106,6 @@ namespace SlotMachine
         private void CancelButton_Click(object sender, EventArgs e)
         {
             //Close the program
-            Console.WriteLine(CheckWinner());
             this.Close();
         }
 
