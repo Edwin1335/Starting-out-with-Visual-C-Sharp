@@ -129,7 +129,7 @@ throught the book:</b></u>
         The <b><i>accessors</i></b> allow code outside the class to get the property’s value and assign values to the property.
     </li>
     <li>
-        A form can be either modal or modeless. The ShowDialog method displays a form in
+        A form can be either <b><i>modal</i></b> or <b><i>modeless</i></b>. The ShowDialog method displays a form in
         modal fashion. When a modal form is displayed, no other form in the application can
         receive the focus until the modal form is closed. The user must close the modal form
         before he or she can work with any other form in the application. A modeless form, on
@@ -147,20 +147,37 @@ throught the book:</b></u>
         </ul>
     </li>
         <li>
-            Summary of Constructor Issues in Inheritance
-        <ul>
-            <li>
-                When you create an instance of a derived class, the base class constructor is executed
-                first and then the derived class constructor is executed.
+            Summary of Constructor Issues in <b><i>Inheritance</i></b>
+            <ul>
+                <li>
+                    When you create an instance of a derived class, the base class constructor is executed
+                    first and then the derived class constructor is executed.
+                </li>
+                <li>
+                    When you create an instance of a derived class, by default the base class’s parameterless constructor is    automatically executed.
+                </li>
+                <li>
+                    If you want a parameterized constructor in the base class to execute, you must explicitly call it from the derived class’s constructor. You do this by writing the notation : base(parameterList) in the derived class’s constructor header.
+                </li>
+                    If the base class does not have a parameterless constructor, the derived class constructor must use the notation : base(parameterList) to call one of the base class’s parameterized constructors.
+                </li>
             </li>
-            <li>
-                When you create an instance of a derived class, by default the base class’s parameterless constructor is    automatically executed.
-            </li>
-            <li>
-                If you want a parameterized constructor in the base class to execute, you must explicitly call it from the derived class’s constructor. You do this by writing the notation : base(parameterList) in the derived class’s constructor header.
-            </li>
-                If the base class does not have a parameterless constructor, the derived class constructor must use the notation : base(parameterList) to call one of the base class’s parameterized constructors.
-            </li>
+        </ul>
+    </li>
+        </li>
+        <li>
+            <b><i>Polymorphism</i></b> allows derived classes to have methods with the same names as methods in their base classes. It gives the ability for a program to call the correct method, depending on the type of object that is used to call it.
+            <ul>
+                <li>
+                   The ability to define a method in a base class and then define a method with the
+                    same name in a derived class. When a derived class method has the same name as a
+                    base class method, it is often said that the derived class method overrides the base
+                    class method.
+                </li>
+                <li>
+                    The ability to call the correct version of an overridden method, depending on the
+                    type of object that is used to call it. If a derived class object is used to call an overridden method, then the derived class’s version of the method is the one that executes. If a base class object is used to call an overridden method, then the base class’s version of the method is the one that executes.
+                </li>
             </li>
         </ul>
     </li>
