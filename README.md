@@ -146,38 +146,35 @@ throught the book:</b></u>
             </li>
         </ul>
     </li>
-        <li>
-            Summary of Constructor Issues in <b><i>Inheritance</i></b>
-            <ul>
-                <li>
-                    When you create an instance of a derived class, the base class constructor is executed
-                    first and then the derived class constructor is executed.
-                </li>
-                <li>
-                    When you create an instance of a derived class, by default the base class’s parameterless constructor is    automatically executed.
-                </li>
-                <li>
-                    If you want a parameterized constructor in the base class to execute, you must explicitly call it from the derived class’s constructor. You do this by writing the notation : base(parameterList) in the derived class’s constructor header.
-                </li>
-                    If the base class does not have a parameterless constructor, the derived class constructor must use the notation : base(parameterList) to call one of the base class’s parameterized constructors.
-                </li>
+    <li>
+        Summary of Constructor Issues in <b><i>Inheritance</i></b>
+        <ul>
+            <li>
+                When you create an instance of a derived class, the base class constructor is executed
+                first and then the derived class constructor is executed.
+            </li>
+            <li>
+                When you create an instance of a derived class, by default the base class’s parameterless constructor is    automatically executed.
+            </li>
+            <li>
+                If you want a parameterized constructor in the base class to execute, you must explicitly call it from the derived class’s constructor. You do this by writing the notation : base(parameterList) in the derived class’s constructor header.
+            </li>
+                If the base class does not have a parameterless constructor, the derived class constructor must use the notation : base(parameterList) to call one of the base class’s parameterized constructors.
             </li>
         </ul>
     </li>
-        </li>
-        <li>
-            <b><i>Polymorphism</i></b> allows derived classes to have methods with the same names as methods in their base classes. It gives the ability for a program to call the correct method, depending on the type of object that is used to call it.
-            <ul>
-                <li>
-                   The ability to define a method in a base class and then define a method with the
-                    same name in a derived class. When a derived class method has the same name as a
-                    base class method, it is often said that the derived class method overrides the base
-                    class method.
-                </li>
-                <li>
-                    The ability to call the correct version of an overridden method, depending on the
-                    type of object that is used to call it. If a derived class object is used to call an overridden method, then the derived class’s version of the method is the one that executes. If a base class object is used to call an overridden method, then the base class’s version of the method is the one that executes.
-                </li>
+    <li>
+        <b><i>Polymorphism</i></b> allows derived classes to have methods with the same names as methods in their base classes. It gives the ability for a program to call the correct method, depending on the type of object that is used to call it.
+        <ul>
+            <li>
+                The ability to define a method in a base class and then define a method with the
+                same name in a derived class. When a derived class method has the same name as a
+                base class method, it is often said that the derived class method overrides the base
+                class method.
+            </li>
+            <li>
+                The ability to call the correct version of an overridden method, depending on the
+                type of object that is used to call it. If a derived class object is used to call an overridden method, then the derived class’s version of the method is the one that executes. If a base class object is used to call an overridden method, then the base class’s version of the method is the one that executes.
             </li>
         </ul>
     </li>
@@ -185,5 +182,49 @@ throught the book:</b></u>
         The primary difference between an abstract class and a regular class (which is sometimes
         called a concrete class) is that the abstract class cannot be instantiated. A statement that
         tries to use the new operator to instantiate an abstract class will not compile.
+    </li>
+    <li>
+        <b><i>Databases</i></b>
+        <ul>
+            <li>
+                When you use Visual Studio to create a database, as you did in Tutorial 11-1, the database file will be created in the project folder.
+            <li>
+            <li>
+                When you create an SQL Server database, you will also see a file that ends with the .LDF extension. For example, in Figure 11-23 you see a file named Phonelist_
+                log.LDF. This is a transaction log file. The SQL Server DBMS uses it to keep a log of all the operations that you perform on the database.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <b><i>DataGridView</i></b>
+        <ul>
+            <li>
+                A <b><i>DataGridView</i></b> control can display a database table in a scrollable grid.
+            <li>
+            <li>
+                A <b><i>data-bound</i></b> control is a user interface control that is connected to a data source. For
+                example, a data-bound control can be connected to a column in a database table.
+            </li>
+             <li>
+               A <b><i>DataGridView</i></b> control can display an entire database table in a scrollable grid on an application’s form.
+            </li>
+            <li>
+                DataGridView Controls
+                <ul>
+                    <li>
+                        <i>personTableAdapter</i>—This is the table adapter. It gets data directly from the data source, which in this case is the Person.mdf database.
+                    </li>
+                    <li>
+                        <i>tableAdapterManager</i>—In many applications, the database has multiple tables from which we want to get data. A table adapter manager is a component that manages multiple tables.
+                    </li>
+                    <li>
+                        <i>personDataSet</i>—This is the dataset component. It gets a copy of the table from the table adapter and keeps it in memory. The application works with the dataset instead of working directly with the database.
+                    </li>
+                    <li>
+                        <i>personBindingSource</i>—This is the navigation bar.
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </li>
 </ul>
