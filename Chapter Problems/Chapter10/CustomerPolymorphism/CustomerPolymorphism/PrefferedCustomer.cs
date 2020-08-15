@@ -9,7 +9,7 @@ namespace CustomerPolymorphism
         private decimal _amountPurchase;
         private int _discountLevel;
 
-        private PrefferedCustomer()
+        public PrefferedCustomer()
         {
             _amountPurchase = 0m;
             _discountLevel = -1;
