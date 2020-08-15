@@ -146,4 +146,22 @@ throught the book:</b></u>
             </li>
         </ul>
     </li>
+        <li>
+            Summary of Constructor Issues in Inheritance
+        <ul>
+            <li>
+                When you create an instance of a derived class, the base class constructor is executed
+                first and then the derived class constructor is executed.
+            </li>
+            <li>
+                When you create an instance of a derived class, by default the base class’s parameterless constructor is    automatically executed.
+            </li>
+            <li>
+                If you want a parameterized constructor in the base class to execute, you must explicitly call it from the derived class’s constructor. You do this by writing the notation : base(parameterList) in the derived class’s constructor header.
+            </li>
+                If the base class does not have a parameterless constructor, the derived class constructor must use the notation : base(parameterList) to call one of the base class’s parameterized constructors.
+            </li>
+            </li>
+        </ul>
+    </li>
 </ul>
