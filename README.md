@@ -181,4 +181,9 @@ throught the book:</b></u>
             </li>
         </ul>
     </li>
+    <li>
+        The primary difference between an abstract class and a regular class (which is sometimes
+        called a concrete class) is that the abstract class cannot be instantiated. A statement that
+        tries to use the new operator to instantiate an abstract class will not compile.
+    </li>
 </ul>
