@@ -188,7 +188,7 @@ throught the book:</b></u>
         <ul>
             <li>
                 When you use Visual Studio to create a database, as you did in Tutorial 11-1, the database file will be created in the project folder.
-            <li>
+            </li>
             <li>
                 When you create an SQL Server database, you will also see a file that ends with the .LDF extension. For example, in Figure 11-23 you see a file named Phonelist_
                 log.LDF. This is a transaction log file. The SQL Server DBMS uses it to keep a log of all the operations that you perform on the database.
@@ -200,7 +200,7 @@ throught the book:</b></u>
         <ul>
             <li>
                 A <b><i>DataGridView</i></b> control can display a database table in a scrollable grid.
-            <li>
+            </li>
             <li>
                 A <b><i>data-bound</i></b> control is a user interface control that is connected to a data source. For
                 example, a data-bound control can be connected to a column in a database table.
