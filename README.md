@@ -1,6 +1,7 @@
 ﻿# Starting-out-with-Visual-C
-
-Book Guide
+![Book Image](Images/BookImage.jpg?raw=true "Title")
+</br>
+Starting out with visual C# <b>Book Guide</b>
 
 <u><b>The following are notes that I will be taking as I progress to
 throught the book:</b></u>
